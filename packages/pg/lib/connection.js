@@ -1,7 +1,7 @@
 'use strict'
 
-var net = require('net')
-var EventEmitter = require('events').EventEmitter
+var net = require('node:net')
+var EventEmitter = require('node:events').EventEmitter
 
 const { parse, serialize } = require('pg-protocol')
 const { getStream, getSecureStream } = require('./stream')
@@ -92,7 +92,7 @@ class Connection extends EventEmitter {
         }
       }
 
-      var net = require('net')
+      var net = require('node:net')
       if (net.isIP && net.isIP(host) === 0) {
         options.servername = host
       }

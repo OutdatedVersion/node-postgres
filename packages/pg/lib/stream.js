@@ -3,7 +3,7 @@
  * @returns {Duplex}
  */
 module.exports.getStream = function getStream(ssl) {
-  const net = require('net')
+  const net = require('node:net')
   if (typeof net.Socket === 'function') {
     return new net.Socket()
   } else {
@@ -18,7 +18,7 @@ module.exports.getStream = function getStream(ssl) {
  * @returns {Duplex}
  */
 module.exports.getSecureStream = function getSecureStream(options) {
-  var tls = require('tls')
+  var tls = require('node:tls')
   if (tls.connect) {
     return tls.connect(options)
   } else {

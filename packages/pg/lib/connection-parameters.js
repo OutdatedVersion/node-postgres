@@ -1,6 +1,6 @@
 'use strict'
 
-var dns = require('dns')
+var dns = require('node:dns')
 
 var defaults = require('./defaults')
 
