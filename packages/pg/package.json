@@ -22,9 +22,9 @@
   "dependencies": {
     "buffer-writer": "2.0.0",
     "packet-reader": "1.0.0",
-    "pg-connection-string": "^2.6.2",
-    "pg-pool": "^3.6.1",
-    "pg-protocol": "^1.6.0",
+    "pg-connection-string": "https://gitpkg.now.sh/OutdatedVersion/node-postgres/packages/pg-connection-string?9fc77f20306473d03268cd4b734256f61705a8ea",
+    "pg-pool": "https://gitpkg.now.sh/OutdatedVersion/node-postgres/packages/pg-pool?9fc77f20306473d03268cd4b734256f61705a8ea",
+    "pg-protocol": "https://gitpkg.now.sh/OutdatedVersion/node-postgres/packages/pg-protocol?9fc77f20306473d03268cd4b734256f61705a8ea",
     "pg-types": "^2.1.0",
     "pgpass": "1.x"
   },
@@ -39,7 +39,7 @@
     "wrangler": "^2.16.0"
   },
   "optionalDependencies": {
-    "pg-cloudflare": "^1.1.1"
+    "pg-cloudflare": "https://gitpkg.now.sh/OutdatedVersion/node-postgres/packages/pg-cloudflare?9fc77f20306473d03268cd4b734256f61705a8ea"
   },
   "peerDependencies": {
     "pg-native": ">=3.0.1"
