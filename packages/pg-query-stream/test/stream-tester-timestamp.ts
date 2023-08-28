@@ -1,7 +1,7 @@
 import helper from './helper'
 import QueryStream from '../src'
 import spec from 'stream-spec'
-import assert from 'assert'
+import assert from 'node:assert'
 
 helper('stream tester timestamp', function (client) {
   it('should not warn about max listeners', function (done) {

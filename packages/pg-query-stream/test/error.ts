@@ -1,4 +1,4 @@
-import assert from 'assert'
+import assert from 'node:assert'
 import helper from './helper'
 import QueryStream from '../src'
 import { Pool, Client } from 'pg'

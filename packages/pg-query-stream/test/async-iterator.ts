@@ -1,6 +1,6 @@
 import QueryStream from '../src'
 import pg from 'pg'
-import assert from 'assert'
+import assert from 'node:assert'
 
 const queryText = 'SELECT * FROM generate_series(0, 200) num'
 

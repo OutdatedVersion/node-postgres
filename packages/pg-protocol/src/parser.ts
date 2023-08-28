@@ -1,4 +1,4 @@
-import { TransformOptions } from 'stream'
+import { TransformOptions } from 'node:stream'
 import {
   Mode,
   bindComplete,
@@ -27,7 +27,7 @@ import {
   NoticeMessage,
 } from './messages'
 import { BufferReader } from './buffer-reader'
-import assert from 'assert'
+import assert from 'node:assert'
 
 // every message is prefixed with a single bye
 const CODE_LENGTH = 1

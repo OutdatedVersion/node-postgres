@@ -1,6 +1,6 @@
-import assert from 'assert'
+import assert from 'node:assert'
 import concat from 'concat-stream'
-import { Transform } from 'stream'
+import { Transform } from 'node:stream'
 import helper from './helper'
 import QueryStream from '../src'
 

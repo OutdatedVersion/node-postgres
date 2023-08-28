@@ -2,7 +2,7 @@ import helper from './helper'
 import QueryStream from '../src'
 import concat from 'concat-stream'
 
-import { Transform } from 'stream'
+import { Transform } from 'node:stream'
 
 const mapper = new Transform({ objectMode: true })
 

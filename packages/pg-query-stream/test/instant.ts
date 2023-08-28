@@ -1,5 +1,5 @@
 import helper from './helper'
-import assert from 'assert'
+import assert from 'node:assert'
 import concat from 'concat-stream'
 import QueryStream from '../src'
 

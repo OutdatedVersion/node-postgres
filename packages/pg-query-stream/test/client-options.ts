@@ -1,5 +1,5 @@
 import pg from 'pg'
-import assert from 'assert'
+import assert from 'node:assert'
 import QueryStream from '../src'
 
 describe('client options', function () {

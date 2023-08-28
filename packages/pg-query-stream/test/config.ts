@@ -1,4 +1,4 @@
-import assert from 'assert'
+import assert from 'node:assert'
 import QueryStream from '../src'
 
 describe('stream config options', () => {

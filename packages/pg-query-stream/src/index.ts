@@ -1,4 +1,4 @@
-import { Readable } from 'stream'
+import { Readable } from 'node:stream'
 import { Submittable, Connection } from 'pg'
 import Cursor from 'pg-cursor'
 

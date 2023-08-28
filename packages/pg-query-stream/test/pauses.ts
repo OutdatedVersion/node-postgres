@@ -2,7 +2,7 @@ import helper from './helper'
 import concat from 'concat-stream'
 import JSONStream from 'JSONStream'
 import QueryStream from '../src'
-import { Transform, TransformCallback } from 'stream'
+import { Transform, TransformCallback } from 'node:stream'
 
 class PauseStream extends Transform {
   constructor() {

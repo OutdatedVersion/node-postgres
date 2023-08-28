@@ -1,5 +1,5 @@
 import { SocketOptions, Socket, TlsOptions } from 'cloudflare:sockets'
-import { EventEmitter } from 'events'
+import { EventEmitter } from 'node:events'
 
 /**
  * Wrapper around the Cloudflare built-in socket that can be used by the `Connection`.
