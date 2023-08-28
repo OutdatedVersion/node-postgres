@@ -16,7 +16,7 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "prepublish": "yarn build",
+    "prepublish": "npm run build",
     "test": "echo e2e test in pg package"
   },
   "repository": {

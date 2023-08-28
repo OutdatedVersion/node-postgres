@@ -16,7 +16,7 @@
     "docs:build": "cd docs && yarn build",
     "docs:start": "cd docs && yarn start",
     "pretest": "yarn build",
-    "prepublish": "yarn build",
+    "prepublish": "npm run build",
     "lint": "eslint '*/**/*.{js,ts,tsx}'"
   },
   "devDependencies": {
